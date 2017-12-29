@@ -6,10 +6,10 @@ mod 'inifile',               :git => 'git://github.com/puppetlabs/puppetlabs-ini
 mod 'firewall',              :git => 'git://github.com/puppetlabs/puppetlabs-firewall.git',                     :ref => '1.7.1'
 mod 'java',                  :git => 'git://github.com/danielparks/puppetlabs-java.git',                        :ref => '07d2d9d79f26922ef5db2115b4f036c8c628a019'
 mod 'jenkins',               :git => 'git://github.com/jenkinsci/puppet-jenkins.git',                           :ref => 'd70fd6f6ccc5a8eae7a9f7c1f7d17efd34ad87e7'
-mod 'archive',               :git => 'git://github.com/voxpupuli/puppet-archive.git',                                     :ref => 'v0.4.8'
+mod 'archive',               :git => 'git://github.com/voxpupuli/puppet-archive.git',                                     :ref => 'v2.2.0'
 mod 'python',                :git => 'git://github.com/stankevich/puppet-python.git',                           :ref => 'e7389f6e270796372b93b178fd5295abefbdc17a' # 1.10.0
 mod 'rvm',                   :git => 'git://github.com/waynr/puppet-rvm.git',                                   :ref => '53c564e56ff8a9b284dfa0bd03e9b9523cc8c3bb'
 # soon-ish, we should pin this to a tag or a SHA, but I expect a little more churn for a while,
 #  so pointing it to `master` for now.
-mod 'puppetserver_perf_driver',      :git => 'git@github.com:puppetlabs/puppetlabs-puppetserver_perf_driver.git',             :ref => 'master'
+mod 'puppetserver_perf_driver',      :git => 'git@github.com:puppetlabs/puppetlabs-puppetserver_perf_driver.git',             :ref => 'update'
 
