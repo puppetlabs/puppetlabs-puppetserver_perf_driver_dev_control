@@ -1,0 +1,9 @@
+---
+language: ruby
+bundler_args: "--without system"
+script: "bundle exec r10k puppetfile check"
+notifications:
+  email: false
+sudo: false
+rvm:
+  - "2.4.1"
