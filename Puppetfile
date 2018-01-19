@@ -10,5 +10,5 @@ mod 'archive',               :git => 'git://github.com/voxpupuli/puppet-archive.
 mod 'python',                :git => 'git://github.com/stankevich/puppet-python.git',                           :ref => '1.18.2'
 mod 'rvm',                   :git => 'git://github.com/maestrodev/puppet-rvm',                                  :ref => 'v1.13.1'
 mod 'gnupg',                 :git => 'git://github.com/dgolja/golja-gnupg.git',                                 :ref => '1.2.3'
-mod 'puppetserver_perf_driver',      :git => 'git@github.com:puppetlabs/puppetlabs-puppetserver_perf_driver.git',             :ref => '1.4.0'
+mod 'puppetserver_perf_driver',      :git => 'git@github.com:puppetlabs/puppetlabs-puppetserver_perf_driver.git',             :ref => '1.4.1'
 
